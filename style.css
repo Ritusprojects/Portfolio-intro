@@ -1,0 +1,113 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  h1 {
+      font-size: 80px;
+      color: rgb(109, 97, 107);
+      font-weight: 800;
+      font-family: Alex Brush, 'IBM Plex Serif', 'serif';
+  }
+  h2 {
+      font-size: 30px;
+      color: rgb(105, 100, 100);
+  }
+  p {
+      font-size: 20px;
+      color: rgb(106, 102, 102);
+  }
+  
+  
+  .profile-card {
+    width: 550px;
+    background-color: hsla(0, 0%, 100%, 0.7);
+    border-radius: 45px;
+    box-shadow: rgba(10, 10, 10, 0.8) 80px 30px 200px;
+    
+  }
+  .profile-card:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(161, 208, 239);
+  }
+  body { /* pystysuoraan ja vaakasuoraan keskitys*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+    background: url("kuvat/PILVET.TAUSTAKUVA.png") no-repeat center center fixed;
+    background-size: cover
+    
+  }
+  .about {
+    line-height: 1.8em;
+    margin: -2px auto 5px auto;
+    font-weight: 700; 
+  }
+  .head, .links { /*tekstisisältö vaakasuoraan*/
+    text-align: center;
+  }
+  .head, .content { /*vaakasuoraan keskitys*/
+    width: 90%;
+    margin: 0 auto; /*auto=kertoo selaimelle, että emme tiedä oikean ja vasemman reunan tarkkaa arvoa, mutta niiden tulisi olla yhtä suuret. */
+  } 
+  .profile-image {
+    margin-top: 60px; /*siirtää säiliötä puolet sen koosta*/
+  }
+  /* Contact links */
+  
+  ul { /* poistaa luettelomerkit*/
+    list-style-type: none;
+  }
+  
+  li { /*näyttää luettelokohdat rivissä*/
+    display: inline;
+  }
+  .head, .about { /* lisätty tyhjää tilaa alapuolelle (whitespace)*/
+    margin-bottom: 5%;
+     
+  }
+  .content {
+    padding: 5% 10%;
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+  }
+  img {
+    width: 170px;
+    height: 170px;
+    border-radius: 10%; /*kuvan reunojen pyöristys*/
+    padding: 1px;
+    background-color: #666;
+    filter: grayscale(30%);
+    float: right;
+  }
+  .links {
+    font-size: 30px;
+  }
+  
+  
+  
+  
+   
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
