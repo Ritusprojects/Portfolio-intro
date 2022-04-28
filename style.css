@@ -31,8 +31,13 @@
   }
   .profile-card:hover {
     transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
+    transition: 0.8s linear;
     background-color: rgb(161, 208, 239);
+    
+  }
+
+  .profile-card p:hover {
+    color: black;
   }
   body { /* pystysuoraan ja vaakasuoraan keskitys*/
     display: flex;
@@ -77,13 +82,13 @@
     border-top: 1px solid hsla(0, 0%, 30%, .8);
   }
   img {
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
     border-radius: 10%; /*kuvan reunojen pyöristys*/
-    padding: 1px;
-    background-color: #666;
-    filter: grayscale(30%);
+    padding: 10px;
+    background-color: rgb(78, 51, 96);
     float: right;
+    
   }
   .links {
     font-size: 30px;
