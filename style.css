@@ -24,9 +24,9 @@
   
   .profile-card {
     width: 550px;
-    background-color: hsla(0, 0%, 100%, 0.7);
+    background-color: hsla(0, 0%, 100%, 0.4);
     border-radius: 45px;
-    box-shadow: rgba(10, 10, 10, 0.8) 80px 30px 200px;
+    box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.8);
     
   }
   .profile-card:hover {
@@ -62,7 +62,7 @@
     margin: 0 auto; /*auto=kertoo selaimelle, että emme tiedä oikean ja vasemman reunan tarkkaa arvoa, mutta niiden tulisi olla yhtä suuret. */
   } 
   .profile-image {
-    margin-top: 60px; /*siirtää säiliötä puolet sen koosta*/
+    margin-top: 20px; /*siirtää säiliötä puolet sen koosta*/
   }
   /* Contact links */
   
@@ -78,7 +78,7 @@
      
   }
   .content {
-    padding: 5% 10%;
+    padding: 2% 3%;
     border-top: 1px solid hsla(0, 0%, 30%, .8);
   }
   img {
